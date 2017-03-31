@@ -11,8 +11,7 @@ var factrDetct = function (testNum) {
       paster(index);
     }
   };
-
-};
+};//function to test number range
 
 var paster = function(test) {
   var newLi = document.createElement("li");
@@ -21,7 +20,7 @@ var paster = function(test) {
 
   var liPlacement = document.getElementById("rngList");
   liPlacement.appendChild(newLi);
-};
+};// function to add new list items to correct section
 
 
 var factNum = function(numb) {
@@ -29,10 +28,19 @@ var factNum = function(numb) {
     alert("Please Enter A Number");
     document.getElementById("userNumber").reset();
   } else {
+    listDeleter();
     factrDetct(numb);
     document.getElementById("userNumber").reset();
   }
-};
+};// gate keeper function
+
+var listDeleter = function(listItems) {
+  var listItems = document.getElementById('rngList');
+  while (listItems.hasChildNodes()) {
+    listItems.removeChild(listItems.firstChild);
+  };
+};// function to empty last range of numbers
+
 
 //U.I.
 $(document).ready(function() {

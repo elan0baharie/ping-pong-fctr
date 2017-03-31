@@ -1,6 +1,9 @@
 //B.L.
 var factrDetct = function (testNum) {
-  paster(testNum);
+  for (var index= 0; index <= testNum; index++) {
+    paster(index);
+  };
+
 };
 
 var paster = function(test) {

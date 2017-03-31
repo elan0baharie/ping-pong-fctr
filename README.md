@@ -30,7 +30,7 @@ _Not yet!_
 
 ## Support and contact details
 
-_Elan Baharie_
+_Elan Baharie find page hosted at https://elan0baharie.github.io/ping-pong-fctr_
 
 ## Technologies Used
 

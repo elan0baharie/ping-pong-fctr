@@ -13,6 +13,7 @@ _Specifications are as follows_
 * _make a UI for input_
 * _take user input and pass it to a function_
 * _reject all non-numerical inputs_
+* _have input appear in a new list item_
 * _make branching logic to appropriately factor the user's number_
 * _replace the number with required text_
 * _post appropriate response into a list in required section_

@@ -1,5 +1,16 @@
 //B.L.
-// var factrDetct = function ();
+var factrDetct = function (testNum) {
+  paster(testNum);
+};
+
+var paster = function(test) {
+  var newLi = document.createElement("li");
+  var responseRng = document.createTextNode(test);
+  newLi.appendChild(responseRng);
+
+  var liPlacement = document.getElementById("rngList");
+  liPlacement.appendChild(newLi);
+};
 
 
 var factNum = function(numb) {
@@ -7,7 +18,7 @@ var factNum = function(numb) {
     alert("Please Enter A Number");
     document.getElementById("userNumber").reset();
   } else {
-    console.log("Gooooo jooobb!");
+    factrDetct(numb);
     document.getElementById("userNumber").reset();
   }
 };

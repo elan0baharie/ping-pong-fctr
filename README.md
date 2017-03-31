@@ -6,7 +6,7 @@
 
 ## Description
 
-_The purpose of this assessment is take user input in number form, test if the number is a factor of 3,5, or 15 and spit back a response_
+_The purpose of this assessment is take user input in number form, test if the number is a factor of 3, 5, or 15 and spit back a response_
 
 _Specifications are as follows_
 

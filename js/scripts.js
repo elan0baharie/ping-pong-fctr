@@ -1,12 +1,13 @@
 //B.L.
 var factrDetct = function (testNum) {
   for (var index= 1; index <= testNum; index++) {
-    if (index % 3 === 0) {
+    if ((index % 3 === 0) && (index % 5 === 0)) {
+      paster("ping-pong");
+    } else if (index % 3 === 0) {
       paster("ping");
     } else if (index % 5 === 0) {
       paster("pong");
-    }
-    else {
+    } else {
       paster(index);
     }
   };
